@@ -2,4 +2,4 @@
 - hosts: localhost
   remote_user: root
   roles:
-    - configure-rysyslog-ansible-role
+    - configure-rsyslog-ansible-role
