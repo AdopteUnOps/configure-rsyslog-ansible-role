@@ -4,5 +4,5 @@
   become: yes
 
 - name: Configure logrotate to be run hourly
-  copy: src=logrotate.cron.conf dest=/etc/cron.daily/logrotate
+  copy: src=logrotate.cron.conf dest=/etc/cron.hourly/logrotate
   become: yes
